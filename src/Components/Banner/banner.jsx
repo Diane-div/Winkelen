@@ -2,7 +2,7 @@ import React from 'react'
 import BannerImg from "../../assets/4547829.jpg"
 import { GrSecure } from 'react-icons/gr'
 import { IoFastFood } from 'react-icons/io5'
-import { GiFoodTruck } from 'react-icons/gi'
+import { GiCelebrationFire, GiFoodTruck } from 'react-icons/gi'
 
 
 const banner = () => {
@@ -18,7 +18,20 @@ const banner = () => {
                     <p data-aos="fade-up" className='text-sm text-gray-500 tracking-wide leading-5'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic voluptates a inventore ex ratione aut dolore ducimus quod iusto error. Doloremque ex ad dolores numquam rerum fugiat ipsum nesciunt facere dolorem tempore?</p>
                     <div className='flex flex-cold gap-4'>
                         <div data-aos="fade-up" className='flex items-center gap-4'>
-
+                            <GrSecure className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-violet-100 dark:bg-violet-400'/>
+                            <p>Quality Products</p>
+                        </div>
+                        <div data-aos="fade-up" className='flex items-center gap-4'>
+                            <IoFastFood className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400'/>
+                            <p>Fast Delivery</p>
+                        </div>
+                        <div data-aos="fade-up" className='flex items-center gap-4'>
+                            <GiFoodTruck className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400'/>
+                            <p>Easy Payment Methods</p>
+                        </div>
+                        <div data-aos="fade-up" className='flex items-center gap-4'>
+                            <GiCelebrationFire className='text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-orange-100 dark:bg-orange-400'/>
+                            <p>Get Offers</p>
                         </div>
                     </div>
                 </div>
