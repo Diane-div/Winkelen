@@ -70,7 +70,7 @@ const Navbar = ({handleOrderPopup}) => {
                 
             </button>
             <div>
-                {/* <DarkMode /> */}
+                <DarkMode />
             </div>
            </div>
         </div>
