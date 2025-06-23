@@ -1,10 +1,9 @@
 import React from 'react'
-import { IoMdSearch } from 'react-icons/io'
-import { FaCartShopping } from 'react-icons/fa6'
-import { FaCaretDown } from 'react-icons/fa6'
-import { FiShoppingBag } from 'react-icons/fi'
-
-
+import { IoMdSearch } from 'react-icons/io';
+import { FaCartShopping } from 'react-icons/fa6';
+import { FaCaretDown } from 'react-icons/fa6';
+import { FiShoppingBag } from 'react-icons/fi';
+import DarkMode from './DarkMode';
 const Menu = [
     {
         id:1,
@@ -47,9 +46,6 @@ const Dropdownlist =[
 ];
 
 
-
-
-
 const Navbar = ({handleOrderPopup}) => {
   return (
     <div className='shadow-md bg-blue-300 dark:bg-text-white duration-200 relative z-40'>
@@ -69,7 +65,7 @@ const Navbar = ({handleOrderPopup}) => {
             <button onClick={()=>{
                 handleOrderPopup();
             }} className='bg-gradient-to-t from-primary to-secondary transition-all duration-200text-white py-1 px-4 rounded-full flex-items-center gap-3 group'>
-                <span className='group-hover:block hidden transition-all duration-200'>Order</span>
+                {/* <span className='group-hover:block hidden transition-all duration-200'>Order</span> */}
                 <FaCartShopping className='text-xl text-white drop-shadow-sm cursor-pointer'/>
                 
             </button>
@@ -92,7 +88,7 @@ const Navbar = ({handleOrderPopup}) => {
                     <a href="#" className='flex items-center gap-[2px] py-2'>
                         Trending Products
                         <span>
-                            <FaCaretDown className='transition-all duration-200 group-hover:rotate-180'/>
+                            <FaCaretDown className='transition-all duration-200 text-xl group-hover:rotate-180'/>
                         </span>
                     </a>
                     <div className='absolute z-[9999] hidden group-hover:block w-[200px] rounded-md bg-white p-2 text-black shadow-md'>

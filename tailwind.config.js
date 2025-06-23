@@ -1,3 +1,5 @@
+import darkMode from './src/Components/Navbar/DarkMode';
+
 /**@type{import
  * ('tailwindcss').config
 } */
@@ -14,8 +16,10 @@ export default{
                 padding:{
                     default:"1rem",
                     sm:"3rem"
-                }
-            }
-        }
-    }
-}
+                },
+            },
+        },
+    },
+    darkMode: "selector",
+    plugins: [],
+};
